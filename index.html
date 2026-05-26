@@ -117,7 +117,8 @@
       .plan-desc { font-size: 13px; color: #777; }
 
       .price-block { text-align: right; flex-shrink: 0; }
-      .price-before { font-size: clamp(22px, 3vw, 32px); font-weight: 700; color: #666; text-decoration: line-through; margin-bottom: 4px; letter-spacing: -0.03em; }
+      .price-before { font-size: clamp(22px, 3vw, 32px); font-weight: 700; color: #666; margin-bottom: 4px; letter-spacing: -0.03em; }
+      .price-before s { text-decoration: line-through; }
       .price-now {
         font-size: clamp(36px, 5vw, 52px); font-weight: 700;
         letter-spacing: -0.04em; line-height: 1; color: var(--white);
@@ -253,7 +254,7 @@
               <p class="plan-desc">Incluye grabación mensual en tu negocio</p>
             </div>
             <div class="price-block">
-              <p class="price-before">Antes: $2.500.000</p>
+              <p class="price-before">Antes: <s>$2.500.000</s></p>
               <p class="price-now">$1.800.000 <span>/ mes</span></p>
               <p class="price-sub">* No incluye inversión en pauta</p>
             </div>
@@ -315,7 +316,7 @@
               <p class="plan-desc">Sin grabación presencial incluida</p>
             </div>
             <div class="price-block">
-              <p class="price-before">Antes: $1.800.000</p>
+              <p class="price-before">Antes: <s>$1.800.000</s></p>
               <p class="price-now">$1.300.000 <span>/ mes</span></p>
               <p class="price-sub">* No incluye inversión en pauta</p>
             </div>
